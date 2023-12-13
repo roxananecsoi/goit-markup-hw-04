@@ -393,3 +393,40 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+/* tema 4 */
+.second-section-icon {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background: var(--CLOUD, #f4f4fd);
+  padding: 24px 100px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourth-section-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.fifth-section {
+  padding: 120px 156px;
+}
+
+.fifth-section-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.fifth-section-icon {
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  padding: 16px 32px;
+}
