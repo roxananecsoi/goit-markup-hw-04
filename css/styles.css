@@ -308,6 +308,7 @@ img {
   display: flex;
   flex-direction: column;
   align-self: center;
+  border-radius: 4px;
 }
 
 .fourth-section-list {
@@ -344,14 +345,21 @@ img {
   justify-content: center;
 }
 
-..fourth-section-icon:hover,
-..fourth-section-icon:focus {
+.fourth-section-icon:hover,
+.fourth-section-icon:focus {
   background-color: #404bbf;
 }
 
 .fourth-section-icon-media {
   fill: #f4f4fd;
 }
+
+.social-icon {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
 
 .footer {
   background-color: var(--text-color);
@@ -389,6 +397,7 @@ img {
   letter-spacing: 0.02em;
 
   max-width: 264px;
+  margin-bottom: 16px
 }
 
 .footer-main-logo {
@@ -436,8 +445,8 @@ img {
   justify-content: center;
 }
 
-..social-media-icon:hover,
-..social-media-icon:focus {
+.social-media-icon:hover,
+.social-media-icon:focus {
   background-color: #31d0aa;
 }
 
@@ -492,8 +501,7 @@ img {
 
 .container {
   width: 1440px;
-  /* margin: 0 auto;
-  padding: 0 15px; */
+
 }
 
 .header {
@@ -567,8 +575,8 @@ img {
   flex-shrink: 0;
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -581,11 +589,6 @@ img {
 
 /* tema 4 */
 
-.social-icon {
-  display: flex;
-  justify-content: space-around;
-  padding-left: 0px;
-}
 
 .fifth-section {
   display: flex;
@@ -614,7 +617,7 @@ img {
 }
 
 .fifth-section-icon:hover,
-.fifth-section-icon:focus{
+.fifth-section-icon:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -633,6 +636,6 @@ img {
   height: 88px;
 }
 
-.fifth-icon{
+.fifth-icon {
   fill: currentColor;
 }
