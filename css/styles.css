@@ -629,8 +629,8 @@ img {
 }
 
 .fifth-section-list-item {
-  width: calc((100% - 120px) / 6
-  height: 88px
+  width: calc((100% - 120px) / 6;
+  height: 88px;
 }
 
 .fifth-icon{
