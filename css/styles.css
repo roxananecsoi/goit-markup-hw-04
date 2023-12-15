@@ -206,7 +206,6 @@ p {
 }
 
 .second-section {
-  padding: 120px 156px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,7 +259,7 @@ p {
 }
 
 .third-section {
-  padding: 120px 156px;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -631,8 +630,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .fifth-section-list {
