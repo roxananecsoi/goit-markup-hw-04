@@ -476,7 +476,7 @@ p {
   background-color: #31d0aa;
 }
 
-.footer-social-icon .footer-icon .media-icon-svg {
+.footer-icon .social-media-icon .media-icon-svg {
   fill: #f4f4f4fd;
 }
 
@@ -630,6 +630,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .fifth-section-list {
@@ -681,7 +683,6 @@ p {
 
 .fifth-section-container {
   display: flex;
-  margin: 120px 156px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
