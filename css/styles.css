@@ -24,6 +24,11 @@ img {
   display: block;
 }
 
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
 .list {
   list-style: none;
 }
@@ -436,7 +441,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffffff;
-  padding: 0px;
   margin-bottom: 16px;
 }
 
