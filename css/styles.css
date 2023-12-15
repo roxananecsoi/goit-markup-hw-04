@@ -302,7 +302,7 @@ p {
   margin: auto;
 }
 
-.fourth-section-list-item {
+.fourth-section-list .fourth-section-list-item {
   background-color: #ffffffff;
   font-weight: 500;
   font-size: 20px;
@@ -358,11 +358,15 @@ p {
   justify-content: center;
 }
 
-.fourth-section-icon:hover {
+.fourth-section-social-icons-list
+  .fourth-section-icon-item
+  .fourth-section-icon:hover {
   background-color: #404bbf;
 }
 
-.fourth-section-icon:focus {
+.fourth-section-social-icons-list
+  .fourth-section-icon-item
+  .fourth-section-icon:focus {
   background-color: #404bbf;
 }
 
@@ -435,7 +439,7 @@ p {
   height: 40px;
 }
 
-.footer-social-media-paragraph {
+.footer-social-media .footer-social-media-paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -460,15 +464,15 @@ p {
   justify-content: center;
 }
 
-.social-media-icon:hover {
+.footer-social-icon .footer-icon .social-media-icon:hover {
   background-color: #31d0aa;
 }
 
-.social-media-icon:focus {
+.footer-social-icon .footer-icon .social-media-icon:focus {
   background-color: #31d0aa;
 }
 
-.footer-icon .media-icon-svg {
+.footer-social-icon .footer-icon .media-icon-svg {
   fill: #f4f4f4fd;
 }
 
@@ -600,12 +604,12 @@ p {
   flex-shrink: 0;
 }
 
-.portfolio-link:hover {
+.portfolio-list .portfolio-list-item .portfolio-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-link:focus {
+.portfolio-list .portfolio-list-item .portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -644,17 +648,17 @@ p {
   padding: 16px 32px;
 }
 
-.fifth-section-icon:hover {
+.fifth-section-list .fifth-section-list-item .fifth-section-icon:hover {
   border-color: #404bbf;
   color: #404bbf;
 }
 
-.fifth-section-icon:focus {
+.fifth-section-list .fifth-section-list-item .fifth-section-icon:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
 
-.fifth-section-header {
+.fifth-section .fifth-section-header {
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
